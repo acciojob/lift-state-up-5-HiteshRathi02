@@ -13,7 +13,7 @@ function Child({ isLoggedIn, setIsLoggedIn }) {
   return (
     <div>
       {isLoggedIn ? (
-        "You are logged in !"
+        <p>You are logged in!</p>
       ) : (
         <>
           <form onSubmit={handleLogin}>
